@@ -32,13 +32,13 @@ namespace Projeto8
             r1 = r2 % 1;
 
             Console.WriteLine(N);
-            Console.WriteLine(a100 + "nota(s) de R$ 100,00");
-            Console.WriteLine(a50 + "nota(s) de R$ 50,00");
-            Console.WriteLine(a20 + "nota(s) de R$ 20,00");
-            Console.WriteLine(a10 + "nota(s) de R$ 10,00");
-            Console.WriteLine(a5 + "nota(s) de R$ 5,00");
-            Console.WriteLine(a2 + "nota(s) de R$ 2,00");
-            Console.WriteLine(a1 + "nota(s) de R$ 1,00");
+            Console.WriteLine(a100 + " nota(s) de R$ 100,00");
+            Console.WriteLine(a50 + " nota(s) de R$ 50,00");
+            Console.WriteLine(a20 + " nota(s) de R$ 20,00");
+            Console.WriteLine(a10 + " nota(s) de R$ 10,00");
+            Console.WriteLine(a5 + " nota(s) de R$ 5,00");
+            Console.WriteLine(a2 + " nota(s) de R$ 2,00");
+            Console.WriteLine(a1 + " nota(s) de R$ 1,00");
 
         }
     }
