@@ -8,7 +8,8 @@ namespace Projeto2
         static void Main(string[] args)
         {
 
-            double largura, comprimento, preçoMQ, area, preço;
+            double largura, comprimento, preço, preçoMQ, area;
+
             largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             comprimento = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             preçoMQ = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -16,9 +17,10 @@ namespace Projeto2
             area = largura * comprimento;
             preço = area * preçoMQ;
 
-            Console.WriteLine("AREA = " + area.ToString("F2", CultureInfo.InvariantCulture));
-            Console.WriteLine("PRECO = " + preço.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine($"Area= {area.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"Preço= {preço.ToString("F2", CultureInfo.InvariantCulture)}");
 
         }
+
     }
 }
