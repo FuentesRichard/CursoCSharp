@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Projeto13
 {
@@ -6,7 +7,40 @@ namespace Projeto13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            int x = int.Parse(Console.ReadLine());
+            string dia;
+
+            switch (x)
+            {
+                case 1:
+                    dia = "domingo";
+                    break;
+                case 2:
+                    dia = "segunda";
+                    break;
+                case 3:
+                    dia = "terca";
+                    break;
+                case 4:
+                    dia = "quarta";
+                    break;
+                case 5:
+                    dia = "quinta";
+                    break;
+                case 6:
+                    dia = "sexta";
+                    break;
+                case 7:
+                    dia = "sabado";
+                    break;
+                default:
+                    dia = "valor invalido";
+                    break;
+            }
+
+            Console.WriteLine("Dia da semana:" + dia);
+
         }
     }
 }
