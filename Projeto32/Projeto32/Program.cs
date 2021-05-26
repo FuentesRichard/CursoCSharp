@@ -9,21 +9,20 @@ namespace Projeto32
             int N;
             N = int.Parse(Console.ReadLine());
 
-            string[] vet;
-            vet = new string[N];
-
-            for (int i = 0; i < N; i++)
+            while (N > -10 && N < 10)
             {
-                vet[i] = Console.ReadLine();
+                if (N < 0)
+                {
+                    Console.WriteLine("Negativo");
+                    N = int.Parse(Console.ReadLine());
+                }
+                else
+                {
+                    Console.WriteLine("Nao Negativo");
+                    N = int.Parse(Console.ReadLine());
+                }
             }
-            for (int i = 0; i < N; i++)
-            {
-                Console.WriteLine(vet[i]);
-            }
-
-
-
-
+            Console.WriteLine("Ate Mais");
         }
     }
 }
