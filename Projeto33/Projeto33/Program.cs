@@ -23,10 +23,8 @@ namespace Projeto33
             y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double p1 = (x.A + x.B + x.C) / 2.0;
-            double p2 = (y.A + y.B + y.C) / 2.0;
-            double areax = Math.Sqrt(p1 * (p1 - x.A) * (p1 - x.B) * (p1 - x.C));
-            double  areay = Math.Sqrt(p2 * (p2 - y.A) * (p2 - y.B) * (p2 - y.C));
+            double areax = x.Area();
+            double areay = y.Area();
 
             Console.WriteLine("Area de X = " + areax.ToString("F4"), CultureInfo.InvariantCulture);
             Console.WriteLine("Area de Y = " + areay.ToString("F4"), CultureInfo.InvariantCulture);
