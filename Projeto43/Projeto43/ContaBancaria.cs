@@ -22,14 +22,14 @@ namespace Projeto43
         {
 
         }
-
+          
         public void Deposito(double deposito)
         {
              SaldoDaConta += deposito;
         }
         public void Saque(double saque)
         {
-            SaldoDaConta -= saque + 10.0;
+            SaldoDaConta -= saque + 5.00;
         }
 
         public override string ToString()
