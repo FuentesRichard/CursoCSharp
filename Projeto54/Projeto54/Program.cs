@@ -15,8 +15,6 @@ namespace Projeto54
             Console.WriteLine(mat.Rank);//QuantidadeLinhas
             Console.WriteLine(mat.GetLength(0));//QuantidadeNaDimensao'0'=>2Linhas
             Console.WriteLine(mat.GetLength(1));//QuantidadeNaDomensao'1'=>3Colunas
-
-            
         }
     }
 }
