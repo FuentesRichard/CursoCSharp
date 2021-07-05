@@ -4,7 +4,7 @@ namespace Projeto60.Entitites
 {
     class OrderItem
     {
-        public int Quantity { get; set; }
+        public static int Quantity { get; set; }
         public double Price { get; set; }
         public Product Product { get; set; }
 
