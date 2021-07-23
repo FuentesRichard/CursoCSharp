@@ -3,7 +3,7 @@
 
 namespace Projeto65.Services
 {
-    class BrasilTaxService
+    class BrasilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
